@@ -2,7 +2,7 @@
 var app = angular.module('myApp', ['spotify', 'ui.router']);
 
 app.config(function (SpotifyProvider) {
-    SpotifyProvider.setClientId('38c15beb323a4c5498909d62bd796998');
+    SpotifyProvider.setClientId('I hide it');
     SpotifyProvider.setRedirectUri('http://localhost:8888/#/callback');
     SpotifyProvider.setScope('user-read-private playlist-read-private playlist-modify-private playlist-modify-public');
 });
